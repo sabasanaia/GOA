@@ -1,0 +1,26 @@
+name = float(input("please put a float like number"))
+print(name // 2)
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+name1 = input("please enter your name ")
+name2 = input("please enter your surname ")
+name3 = input("please enter your hobbies ")
+name4 = input("please enter your balance ")
+print(name1)
+print(name2)
+print(name3)
+print(name4)
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+print(1020 % 2)
+print(4000 % 5)
+print(5005 % 5)
+print(200 % 3)
+print(40 % 1)
+
+print(30 // 2)
+print(400 // 200)
+print(30 // 5)
+print(20 // 2)
+print(40 // 20)
+#----------------------------------------------------------------------------------------------------------------------------------------------------
+name5 = int(input("please enter a number "))
+print(name5 - 20 * 3)
