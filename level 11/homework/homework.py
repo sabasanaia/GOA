@@ -30,3 +30,10 @@ print(age >= 18)
 print(name  >= "saba" )
 print(hight >= 1.80)
 #-----------------------------------------------------------------------------------------------------------------------------------------------
+#flow chart არის სურათებიტ ახსნილი არგოროთმი
+#natural language არის ენით ახსნილი არგორითმი მაგ ამ კოდით ამას შვება და ასე შემდეგ
+#
+name = input("please enter your name ")
+print(name >= "saba")
+if False:print(name)
+if True:print("welcome")
