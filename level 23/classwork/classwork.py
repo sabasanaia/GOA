@@ -17,7 +17,7 @@ if name.find(shsh) == -1:
 else:
     print("found it")
 # 4)მომხმარებელს შემოატანინეთ მისი გვარი, შემდეგ შეეკითხეთ როგორ უნდა რო შეიცვალოს მისი გვარის ასოები, თუ გიპასუხებთ "upper" გადაიყვანეთ მთლიანი გვარი დიდ ასოებად, თუ გიპასუხებთ "lower" გადაიყვანეთ მთლიანი გვარი პატარა ასოებად და თუ გიპასუხებთ "capitalize" გადაიყვანეთ გვარის მხოლოდ პირველი ასო დიდ ასოდ.
-surname = input("please enter your name: ")
+name = input("please enter your name: ")
 option = input("would you like your name in all caps,all not in caps or first letter cap and the rest not?: upper , lower or capitalize: ")
 if option == "upper":
     print(name.upper())
