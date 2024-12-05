@@ -5,10 +5,8 @@ for i in range(1,201,2):
 print(list)
 # 2)შექმენით ცარიელი სია და for ციკლის მეშვოებით მომხმარებელს შეეკითხეთ მისი top 5 საყვარელი სახელი (ანუ ხუთჯერ input).
 list = []
-for i in range(5):
-    input("enter your top favourite name: ")
-    print(i,list.append(i))
-print(list)
+for i in range(5): 
+    print(list.append(input("enter your top favourite name: ")))
 # 3)შექმენით სია 10 ელემენტით და გამოიტანეთ მხოლოდ კენტ ინდექსზე მდგომი ელემენტები.
 list = [23,16,38,18,39,25,374,16,176,13]
 # 4)შექმენით ცვლადი რომელშიც შენახული იქნება სტრინგი შემდეგ კი გაიგეთ ამ სტრინგის სიმბოლოების რაოდენობა.
