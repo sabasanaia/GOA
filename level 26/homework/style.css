@@ -1,15 +1,18 @@
 th {
-    color:chocolate;
+    background: chocolate;
 }
-td{
-    background-color: cadetblue;color: red;
+table{
+    border: solid green; text-align: center;
+}
+.num{
+    background: chocolate;
 }
 #heading1{
     color: red;
 }
 #heading2{
-    color: rgb(38, 0, 255);
+    color: rgb(255, 251, 0);
 }
 #heading3{
-    color: rgb(255, 238, 0);
+    color: rgb(68, 0, 255);
 }

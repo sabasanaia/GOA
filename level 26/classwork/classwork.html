@@ -7,13 +7,25 @@
 </head>
 <body>
     <table border="1px">
-        <th colspan="4">columu1</th>
-        <th>columu2</th>
-        <th>columu3</th>
         <tr>
-            <td colspan="2">row1 cell1</td>
+            <th>columu1</th>
+            <th>columu2</th>
+            <th>columu3</th> 
+        </tr>
+
+        <tr>
+            <td rowspan="2">row1 cell1</td>
             <td>row1 cell2</td>
             <td>row1  cell3</td>
+        </tr>
+
+        <tr>
+            <td>row2 cell2</td>
+            <td>row1 cell3</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">row3 cell1</td>
         </tr>
     </table>
 </body>
