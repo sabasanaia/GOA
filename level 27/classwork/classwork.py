@@ -4,4 +4,4 @@ def sums(name):
     for i in name:
         total += i
     print(total)
-sums([1,2,3,4,5])
+sums([1,2,3,4,5])  
