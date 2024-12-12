@@ -1,27 +1,27 @@
 # 1)შექმენით ფუნქცია რომელსაც არგუმენტად გადაეცემა ორი რიცხვი შემდეგ კი გამოიტანეთ ამ რიცხვების ჯამი.
-def sums(name):
-    total=0
-    for i in name:
-        total += i
-    print(total)
-sums([11223,129])
+def sums(num,num1):
+    print(num + num1)
+sums(11223,129)
 # 2)შექმენით ფუნქცია რომელსაც გადაეცემა არგუმენტად რიცხვი შემდეგ კი მან უნდა დაგვიბრუნოს ლუწია ეს რიცხვი თუ კენტი.
-def sums(name):
-    input("enter a number")
-    for i in name:
-        if name() % 2 != 0:
-            print(name)
-            print("ლუწია")
-        else:
-            print("კენტია")
-print(sums)       
+def even_or_odd(num):
+    if num % 2 == 0:
+        print("ლუწია")
+    else:
+        print("კენტია")
+even_or_odd(4)       
 # 3)შექმენით ფუნქცია რომელსაც არგუმენტად გადაეცემა რიცხვი შემდეგ კი მან უნდა დაგვიბრუნოს ეს რიცხვი დადებითია თუ უარყოფითი.
-
+def negative_or_positive(num):
+    if num >= 0:
+        print("დადებითია")
+    else:
+        print("უარყოფითი")
+negative_or_positive(-1)
 # 4)შექმენით ფუნქცია, რომელსაც არგუმენტად გადაეცემა სახელი და დაბეჭდავს მისთვის მიესალმებას (მაგალითად: "Hello Giorgi"). გამოძახეთ ეს ფუნქცია 2-ჯერ და გადაეცით სხვადასხვა სახელი.
-
+def sums(name):
+    print("hello",name)
+sums("Saba")
 # 5)შექმენით ფუნქცია, რომელიც იღებს ორ სტრინგს და მოახდინეთ კონკატენაცია.
+def concatination(name,name1):
+    print(name + name1)
 
-def concatination(name):
-    print(name)
-
-concatination([ input("enter a name: ")+input("enter a name: ")])
+concatination("saba","demetre")
