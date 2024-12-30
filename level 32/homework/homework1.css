@@ -1,0 +1,42 @@
+#q{
+    text-decoration: underline dotted green;
+    text-align: right;
+}
+#w{
+    text-decoration: line-through;
+    text-align: center;
+}
+#e{
+    text-decoration:  underline;
+    text-align: center;
+}
+#r{
+    text-decoration: line-through green dotted;
+    text-align: right;
+}
+#t{
+    text-decoration: line-through;
+    text-align: left;
+}
+#y{
+    text-decoration: overline;
+    text-align: left;
+}
+#u{
+    text-decoration: overline green;
+    color: green;
+    text-align: right;
+}
+#i{
+    text-decoration: overline grey;
+    color: grey;
+    text-align: center;
+}
+#o{
+    text-decoration: underline dotted green;
+    text-align: right;
+}
+#p{
+    text-decoration: overline double red;
+    text-align: left;
+}
