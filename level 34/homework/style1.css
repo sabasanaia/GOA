@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&family=Sixtyfour&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Vinyl&family=Sixtyfour&display=swap'); 
+
+p{
+    font-family: "Sixtyfour", serif;
+     
+    text-shadow: 7px 2px 4px;
+}
+h1{
+    font-family: "Rubik Vinyl", serif;
+    text-decoration: line-through rgb(38, 0, 255) dashed ;
+    text-shadow: 9px 5px 7px;
+}
+h2{
+    font-family: "Press Start 2P", serif;
+    text-decoration:overline line-through underline rgb(81, 255, 0)  dotted ;
+    text-shadow: 3px 9px 2px;
+}
+body{
+    background-color: #222;
+}
