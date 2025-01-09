@@ -1,0 +1,29 @@
+#hhh{
+    background-color: cadetblue;
+    transition: 0.5s;
+    width: 200px;
+}
+#hhh:hover{
+    width: 300px;
+    background-color: chocolate;
+}
+
+#hh{
+    background-color: rgb(224, 255, 48);
+    transition: 0.5s;
+    width: 100px;
+}
+#hh:hover{
+    width: 400px;
+    background-color: rgb(47, 67, 180);
+}
+table{
+    border-collapse: collapse;
+    
+}
+table:nth-child(odd){
+    background-color: blue;
+}
+table:nth-child(even){
+    background-color: rgb(255, 0, 0);
+}
