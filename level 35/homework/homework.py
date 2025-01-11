@@ -46,3 +46,6 @@ def manual_join(lst,separator):
             result += lst[i]
     return result
 print(manual_join(["hello","i","am","12","years","old"]," "))
+
+result = ""
+lowercase_count

@@ -1,0 +1,27 @@
+#q{
+    background-color: brown;
+}
+#q:hover{
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+}
+#w{
+    background-color: blueviolet;
+}
+#w:hover{
+    background-color: cadetblue;
+    color:black;
+    transition: 0.9s;
+}
+#e{
+    background-color: aqua;
+}
+#e:hover{
+    background-color: burlywood;
+    width: 70px;
+    transition: 0.5s;
+}
+body{
+    background-color: #222;
+}
