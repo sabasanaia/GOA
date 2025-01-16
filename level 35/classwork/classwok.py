@@ -54,3 +54,4 @@ def sum_array(arr):
     for i in arr:
         sum += i
     return sum - max(arr) - min(arr)
+
