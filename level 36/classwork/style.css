@@ -1,11 +1,13 @@
 #hhh{
-    background-color: cadetblue;
+    background-color: rgb(0, 0, 0);
+    color: white;
     transition: 0.5s;
     width: 200px;
 }
 #hhh:hover{
     width: 300px;
-    background-color: chocolate;
+    background-color: white;
+    color: black;
 }
 
 #hh{
