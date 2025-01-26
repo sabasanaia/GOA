@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Vinyl&family=Sixtyfour&display=swap'); /*Press 2p*/
 .hhh{
     background-color: rgb(0, 0, 0);
     color: white;
@@ -23,3 +24,18 @@ body{
     background-color: rgb(0, 0, 0);
     
 }
+img{
+    border-radius: 12px;
+}
+p{
+    font-family: "Press Start 2P", serif;
+}
+#h{
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}
+#wf{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
