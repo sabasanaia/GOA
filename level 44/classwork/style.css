@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#main{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+}
+#btnDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column; 
+    gap: 10px;
+     
+}
+.btn{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    transition: 0.5s;
+    width: 250px;
+    height: 35px;
+    border-radius: 5px 5px;
+    border: none;
+    
+}
+#re{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    background-color: hsl(0, 0%, 12%); 
+    border-radius: 2.5%;
+    height: 425px;
+}
+.btn:hover{
+    background-color:hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+}
+#s{
+    color: hsl(75, 94%, 57%);
+}
+#e{
+    color: grey;
+}
+#o{
+    color: hsl(0, 0%, 100%);
+}
+/* - Green: hsl(75, 94%, 57%)
+
+- White: hsl(0, 0%, 100%)
+
+- Grey 700: hsl(0, 0%, 20%)
+- Grey 800: hsl(0, 0%, 12%)
+- Grey 900: hsl(0, 0%, 8%) */

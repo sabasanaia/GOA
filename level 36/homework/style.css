@@ -24,8 +24,7 @@
 }
 body{
     background-color: #222;
-}
-li:nth-child(2){
+}li:nth-child(2){
     color: red;
 }
 li:nth-child(1){

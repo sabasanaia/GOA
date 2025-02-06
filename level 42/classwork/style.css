@@ -1,0 +1,14 @@
+.c{
+    border: color red solid 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: start
+}
+.w{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
