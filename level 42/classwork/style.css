@@ -1,14 +1,22 @@
 .c{
-    border: color red solid 30px;
+    border: red solid ;
     width: 100px;
     height: 100px;
     border-radius: 5px;
     display: flex;
-    justify-content: start;
-    align-items: start
+    justify-content: center;
+    align-items: center
 }
 .w{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.wrapper{
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+}
+.c:nth-child(even){
+    border: blue solid;
 }
