@@ -1,8 +1,6 @@
 def format_money(amount):
     return f"${amount:.2f}"
 
-
-
 def same_case(a, b): 
     if a.islower() and b.islower():
         return 1
