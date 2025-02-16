@@ -1,0 +1,21 @@
+#wrapper{
+    display: flex;
+    justify-content: center;
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 10px;
+    flex-direction: column;
+    width: 470px;
+    padding: 30px;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    height: 100vh;
+}
+#imgq{
+    border-radius: 5px;
+}
+#prep_time{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 5px;
+    width: 480px;
+}
