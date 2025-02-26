@@ -1,0 +1,27 @@
+div{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.smalldiv{
+    background-color: lime;
+    border: 1px black solid;
+    height: 50px;
+    width: 50px;
+}
+
+.mediumdiv{
+    background-color: lime;
+    border: 1px black solid;
+    height: 50px;
+    width: 100px;
+}
+
+.largediv{
+    background-color: lime;
+    border: 1px black solid;
+    height: 50px;
+    width: 300px;
+}

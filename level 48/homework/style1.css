@@ -1,0 +1,28 @@
+div{
+    border: 2px blue solid;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div0{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    
+}
+#Maindiv2{
+    flex-direction: column;
+}
+#Maindiv3{
+    flex-direction: row-reverse;
+    
+}
+#Maindiv4{
+    flex-direction: column-reverse;
+}
+body{
+    display: flex;
+    justify-content: space-around;
+}

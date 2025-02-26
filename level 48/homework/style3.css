@@ -1,0 +1,26 @@
+div{
+    display: flex;
+    gap: 10px;
+}
+.largediv{
+    background-color: darkslateblue;
+    height: 100px;
+    width: 300px;
+}
+.meddiv{
+    background-color: darkslateblue;
+    height: 100px;
+    width: 145px;
+}
+.hugediv{
+    background-color: darkslateblue;
+    height: 320px;
+    width: 350px;
+    margin-right: 10px;
+}
+body{
+    display: flex;
+}
+.e{
+    flex-direction: column;
+}
