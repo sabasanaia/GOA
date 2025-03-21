@@ -1,0 +1,8 @@
+div{
+    width: 80%;
+    border: 10px solid red;
+}
+div:hover{
+    transition: 60s;
+    width: 40%;
+}

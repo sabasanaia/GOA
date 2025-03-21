@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    border: 3px blue solid;
+}
