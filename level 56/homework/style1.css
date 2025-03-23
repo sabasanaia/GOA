@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; /*~~~~არ მუშაობს~~~~*/
+}
+#div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+#div1:hover{
+    transition: 5s;
+    rotate: 304024534098757659876947564875648957645764985769deg;
+    background-color: blue;
+}
+#div2{
+    height: 90px;
+    width: 90px;
+    background-color: black;
+}
+#div2:hover{
+    transition: 3s;
+    rotate: 304024534098757659876947564875648957645764985769deg;
+    background-color: white;
+    
+}

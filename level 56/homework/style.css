@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; /*~~~~რატომღაც "align-items" არ მუშაობს~~~~~*/
+    
+}
+div{
+    
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+}
+div:hover{
+    transition: 2s;
+    background-color: #222;
+}
