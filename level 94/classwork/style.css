@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#main_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid grey ;
+    flex-direction: column;
+    height: 500px;
+    width: 350px;
+    border-radius: 10px;
+}
+a{
+    color: hsl(228, 45%, 44%);
+}
+p{
+   color: hsl(224, 23%, 55%);
+}
+#img_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+}
+#img1{
+    width: 350px;
+}
+#payment_fees{
+    display: flex;
+    background-color:hsl(225, 100%, 94%);
+    border-radius: 5px;
+    width: 300px;
+    height: 150px;
+    align-items: center;
+}
+button{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    background-color:hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 5px;
+    color: hsl(225, 100%, 94%);
+}
+#p1{
+    font-size:30px;
+    margin: 0;
+    font-weight: 700;
+    color: black;
+}

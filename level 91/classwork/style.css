@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#main_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid lightgrey ;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+}
+#buttons_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+input{
+    height: 25px;
+    width: 250px;
+    margin: 5px;
+}
+
+#btn{
+    height: 35px;
+    width: 250px;
+    color: white;
+    background-color: rgb(0, 153, 255);
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#title{
+    margin: 10px;
+}
+p{
+    font-size: 35px;
+    margin: 5px;
+    
+}
+#meh{
+    color: lightgrey;
+}
+#meh1{
+    color: blue;
+    font-size: 20px;
+}
+#meh2{
+    color: darkblue;
+    font-size: 15px;
+}
