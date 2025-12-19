@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: rgb(41, 41, 41);
+      }
+      #wrong {
+        border-radius: 6px;
+        height: 40px;
+        width: 150px;
+        border: none;
+      }
+      #right {
+        border-radius: 6px;
+        height: 40px;
+        width: 150px;
+        margin: 10px;
+        border: none;
+      }
+      #wrong1 {
+        border-radius: 6px;
+        height: 40px;
+        width: 150px;
+        border: none;
+      }
+      h2{
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h3>score</h3>
+      <button>0</button>
+      <h2>choose correct <br>option</h2>
+
+      <div id="answers">
+        <button id="wrong" style="background-color: rgb(247, 0, 255)">print)5</button><br>
+        <button id="right" style="background-color: rgb(9, 0, 128)">print(5)</button><br>
+        <button id="wrong1" style="background-color: cyan">print)5(</button>
+      </div>
+    </div>
+
+    <script>
+        let wrong = document.getElementById("wrong")
+        let wrong1 = document.getElementById("wrong1")
+        let right = document.getElementById("right")
+        wrong.addEventListener("click",function(){
+            wrong.style.backgroundColor = "red";
+        })
+        wrong1.addEventListener("click",function(){
+            wrong1.style.backgroundColor = "red";
+        })
+        right.addEventListener("click",function(){
+            right.style.backgroundColor = "green";
+        })
+    </script>
+  </body>
+</html>
